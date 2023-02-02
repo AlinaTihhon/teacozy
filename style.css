@@ -1,0 +1,145 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    top: 0px;
+} 
+/*Nav Section*/
+
+.logo {
+    float: left;
+    height: 50px;
+    opacity: 0.7;
+    margin-left: 10px;
+    margin-top: -10px;
+   }
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin-left: 10px;
+}
+.item  {
+    display: inline-flex;
+    text-decoration: underline;
+    justify-content: space-around;
+    color: seashell;
+    opacity: 0.7;
+    height: 100%;
+    padding: 0px 20px;
+}
+/*Background image*/
+
+.background-image {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    margin: 40px auto;
+    display: flex;
+}
+
+
+.item-mission {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+.first {
+    color: seashell;
+    opacity: 0.7;
+}
+
+
+/*The tea cozy*/
+
+.tea-container {
+    text-align: center;
+    color: seashell;
+    opacity: 0.7;
+    
+}
+.image-container {
+    display: inline-flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+
+}
+
+.item-tea img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.location-container {
+    text-align: center;
+    color: seashell;
+    opacity: 0.7;
+}
+
+.items-location {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1n2onlu*_ga*MjA5NTM1NzYwNS4xNjcyODE3Njc3*_ga_3LRZM6TM9L*MTY3NTMyMzYzNC45Ny4xLjE2NzUzMjM2NDIuMC4wLjA.);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin:  0px auto;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.names {
+    text-align: center;
+    color: seashell;
+    opacity: 0.7;
+    margin: 15px auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+   
+}
+
+.location-name {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 15px 40px;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    text-align: center;
+    color: seashell;
+    opacity: 0.7;
+    max-height: 200px;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 20px;
+    color: seashell;
+    opacity: 0.7;
+    font-weight: 600;
+    font-size: medium;
+}
